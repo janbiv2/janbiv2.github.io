@@ -19,10 +19,11 @@ h2 {
 	font-size:150%;
 }
 #summary p{
-	margin-right:150px;
 	line-height: 22px;
 }
-
+#resume {
+	margin-top:25px;
+}
 /* Text styles */
 h1, h2 {
 	font-family: 'Yanone Kaffeesatz', sans-serif;
