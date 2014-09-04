@@ -11,7 +11,8 @@ $(document).ready(function() {
 	});
 });
 
-$(document).on('click','.navbar-collapse.in',function(e) {
+// Hides the collapsible menu after making a selection
+$(document).on('click','.navbar-collapse.in', function(e) {
     if( $(e.target).is('a') ) {
         $(this).collapse('hide');
     }

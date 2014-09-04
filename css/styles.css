@@ -10,7 +10,7 @@ h2 {
 }
 #skills {
 	background-color:#89C4F4;
-	width:100%;
+	width:100%; 
 	margin-top:25px;
 	padding-bottom:40px;
 	padding-top:40px;
@@ -23,6 +23,14 @@ h2 {
 }
 #resume {
 	margin-top:25px;
+}
+
+#contact {
+	background-color:#89C4F4;
+/*	width:100%; */
+	margin-top:25px;
+	padding-bottom:40px;
+	padding-top:40px;
 }
 /* Text styles */
 h1, h2 {
