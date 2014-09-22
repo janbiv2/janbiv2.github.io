@@ -41,6 +41,7 @@ h1, h2 {
 /* navbar custom styles */
 .navbar {
 	background: #34495e;
+	margin-bottom:0px;
 }
 .nav li a {
 	font-size:14px;
@@ -48,7 +49,7 @@ h1, h2 {
 
 /* jumbotron custome styles */
 .jumbotron {
-	margin-top:25px;
+	margin-top:0px;
 }
 .jumbotron h3 {
 	margin-top:5px;
@@ -67,7 +68,7 @@ h1, h2 {
 } 
 #projects {
 	padding-bottom:40px;
-	padding-top:25px;
+	padding-top:15px;
 }
 #jumbo-projects {
 	background-color:none;

@@ -1,14 +1,16 @@
 $(document).ready(function() {
-	$('.anchorLink2').click(function(event) {
-//		alert("skills button clicked");
-		event.stopPropagation();
-		var idTo = $(this).attr('href');
-//		alert(idTo);
-		var Position = $('[id="' + idTo + '"]').offset().top;
-//		alert(Position);
-		$('html, body').animate({ scrollTo: Postion }, 'slow');
-		return false;
-	});
+  $('a[href*=#]:not([href=#])').click(function() {
+    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+      var target = $(this.hash);
+      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+      if (target.length) {
+        $('html,body').animate({
+          scrollTop: target.offset().top
+        }, 1000);
+        return false;
+      }
+    }
+  });
 });
 
 // Hides the collapsible menu after making a selection
